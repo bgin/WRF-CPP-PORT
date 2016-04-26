@@ -1,7 +1,7 @@
 
 template<typename T, WRF_INT KL, WRF_INT NSP>  wrf_physics::bl_acm::TRIDIAGONAL<T, KL, NSP>::TRIDIAGONAL() :
 m_X{ boost::extents[KL][NSP] },
-m_XX{ boost::extents[KL] }
+//m_XX{ boost::extents[KL] }
 {}
 
 
